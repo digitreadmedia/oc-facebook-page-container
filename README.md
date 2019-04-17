@@ -1,6 +1,8 @@
 # OC Facebook Page Container Plugin
 Display a Facebook widget container on your October CMS website with one or multiple tabs for Messenger, Events or Timeline.
 
+**Install this plugin from the October CMS Marketplace:** https://octobercms.com/plugin/digitreadmedia-facebookpageplugin
+
 ## About This Plugin
 Add Facebook interactive features to your website with this plugin:
 - Easily configure the plugin features in a default settings page
