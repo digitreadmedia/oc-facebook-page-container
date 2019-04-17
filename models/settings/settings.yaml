@@ -1,0 +1,95 @@
+tabs:
+    fields:
+        section1:
+            label: 'digitreadmedia.facebookpageplugin::lang.defsection'
+            span: full
+            type: section
+            comment: 'digitreadmedia.facebookpageplugin::lang.defcmnt'
+            tab: 'digitreadmedia.facebookpageplugin::lang.facebooksettings'
+        fb_app_id:
+            label: 'digitreadmedia.facebookpageplugin::lang.appid'
+            span: auto
+            type: text
+            comment: 'https://developers.facebook.com/docs/apps/'
+            tab: 'digitreadmedia.facebookpageplugin::lang.facebooksettings'
+        href:
+            label: 'digitreadmedia.facebookpageplugin::lang.fbpageurl'
+            comment: 'Eg. https://www.facebook.com/my-page-username => use "my-page-username"'
+            placeholder: 'my-page-username'
+            span: left
+            type: text
+            tab: 'digitreadmedia.facebookpageplugin::lang.facebooksettings'
+        width:
+            label: 'digitreadmedia.facebookpageplugin::lang.containerwidth'
+            span: auto
+            default: '340'
+            type: text
+            comment: 'Min. 180 : Max. 500'
+            tab: 'digitreadmedia.facebookpageplugin::lang.facebooksettings'
+        height:
+            label: 'digitreadmedia.facebookpageplugin::lang.containerheight'
+            span: auto
+            default: '500'
+            type: text
+            comment: 'min. 70'
+            tab: 'digitreadmedia.facebookpageplugin::lang.facebooksettings'
+        lang:
+            label: 'digitreadmedia.facebookpageplugin::lang.lang'
+            span: auto
+            type: text
+            comment: 'Eg. en_US / ru_RU / fr_FR'
+            tab: 'digitreadmedia.facebookpageplugin::lang.facebooksettings'
+        adapt_container_width:
+            label: 'digitreadmedia.facebookpageplugin::lang.adapt'
+            span: auto
+            default: 1
+            type: checkbox
+            tab: 'digitreadmedia.facebookpageplugin::lang.facebooksettings'
+        show_facepile:
+            label: 'digitreadmedia.facebookpageplugin::lang.faces'
+            span: auto
+            type: checkbox
+            tab: 'digitreadmedia.facebookpageplugin::lang.facebooksettings'
+        small_header:
+            label: 'digitreadmedia.facebookpageplugin::lang.smallheader'
+            span: auto
+            default: 1
+            type: checkbox
+            tab: 'digitreadmedia.facebookpageplugin::lang.facebooksettings'
+        hide_cover:
+            label: 'digitreadmedia.facebookpageplugin::lang.coverphoto'
+            span: auto
+            default: 1
+            type: checkbox
+            tab: 'digitreadmedia.facebookpageplugin::lang.facebooksettings'
+        hide_cta:
+            label: 'digitreadmedia.facebookpageplugin::lang.hide_cta'
+            span: auto
+            type: checkbox
+            tab: 'digitreadmedia.facebookpageplugin::lang.facebooksettings'
+        tabs:
+            label: 'digitreadmedia.facebookpageplugin::lang.fbtabs'
+            span: left
+            type: checkboxlist
+            default: timeline
+            tab: 'digitreadmedia.facebookpageplugin::lang.facebooksettings'
+            options:
+                timeline: Timeline
+                events: Events
+                messages: Messenger
+        use_sdk:
+            label: 'digitreadmedia.facebookpageplugin::lang.type'
+            span: left
+            type: radio
+            default: iframe
+            tab: 'digitreadmedia.facebookpageplugin::lang.facebooksettings'
+            options:
+                iframe: Iframe
+                sdk: JavaScript SDK
+        disable:
+            label: 'digitreadmedia.facebookpageplugin::lang.disableUrlVal'
+            span: auto
+            type: checkbox
+            default: 1
+            comment: 'digitreadmedia.facebookpageplugin::lang.disableUrlValDesc'    
+            tab: 'URL Validation'

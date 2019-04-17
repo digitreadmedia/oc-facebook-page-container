@@ -1,0 +1,6 @@
+plugin:
+    name: 'digitreadmedia.facebookpageplugin::lang.plugin.name'
+    description: 'digitreadmedia.facebookpageplugin::lang.plugin.description'
+    author: 'Digitread Media'
+    icon: oc-icon-facebook-square
+    homepage: 'https://www.digitread.co.za/oc-fb-page-plugin'
